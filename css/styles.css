@@ -684,19 +684,15 @@ background: var(--CLOUD, #F4F4FD); */
   + .review-form-checkbox-label
   > .review-form-own-checkbox {
   background-color: #404bbf;
+  border: none;
   fill: #f4f4fd;
 }
-.review-form-checkbox:checked
+/* .review-form-checkbox:focus
   + .review-form-checkbox-label
   > .review-form-own-checkbox {
-  border: none;
-}
-.review-form-checkbox:focus
-  + .review-form-checkbox-label
-  > .review-form-own-checkbox {
-  /* outline: 1px solid #404bbf; */
+  outline: 1px solid #404bbf; 
   border: 1px solid #404bbf;
-}
+} */
 /* ===================================== */
 /* .review-form-own-checkbox-icon {
   fill: tomato;
@@ -707,6 +703,7 @@ background: var(--CLOUD, #F4F4FD); */
   > .review-form-own-checkbox-icon {
   opacity: 1;
 } */
+/* ===================================== */
 .review-form-checkbox-label {
   display: block;
   color: #8e8f99;
