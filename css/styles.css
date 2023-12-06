@@ -527,6 +527,7 @@ background: var(--CLOUD, #F4F4FD); */
 }
 .footer-btn-icon {
   margin-left: 16px;
+  fill: #fff;
 }
 /* =====backdrop+======= */
 .backdrop {
@@ -685,9 +686,6 @@ background: var(--CLOUD, #F4F4FD); */
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
-}
-.review-form-own-checkbox {
-  fill: transparent;
 }
 .review-form-checkbox:focus
   + .review-form-checkbox-label
