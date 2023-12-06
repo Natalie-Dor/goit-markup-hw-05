@@ -512,7 +512,7 @@ background: var(--CLOUD, #F4F4FD); */
   justify-content: center;
   align-items: center;
   gap: 16px;
-  max-width: 165px;
+  min-width: 165px;
   height: 40px;
   padding: 8px 24px;
   font-weight: 500;
@@ -583,7 +583,7 @@ background: var(--CLOUD, #F4F4FD); */
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
-  /* fill: #ffffff; */
+  fill: #ffffff;
 }
 .modal-close-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -735,3 +735,6 @@ background: var(--CLOUD, #F4F4FD); */
   background-color: #404bbf;
   outline: 0px solid transparent;
 }
+/* first <path fill="#404bbf" style="fill: var(--color1, #404bbf)" d="M4 1h24c1.657 0 3 1.343 3 3v24c0 1.657-1.343 3-3 3h-24c-1.657 0-3-1.343-3-3v-24c0-1.657 1.343-3 3-3z"></path> */
+/* second pease fill="none" stroke="#404bbf" style="stroke: var(--color1, #404bbf)" */
+/* therd fill="#f4f4fd" style="fill: var(--color2, #f4f4fd)"  */
