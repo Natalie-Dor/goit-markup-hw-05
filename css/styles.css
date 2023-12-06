@@ -683,9 +683,13 @@ background: var(--CLOUD, #F4F4FD); */
 .review-form-checkbox:checked
   + .review-form-checkbox-label
   > .review-form-own-checkbox {
-  border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
+}
+.review-form-checkbox:checked
+  + .review-form-checkbox-label
+  > .review-form-own-checkbox {
+  border: none;
 }
 .review-form-checkbox:focus
   + .review-form-checkbox-label
