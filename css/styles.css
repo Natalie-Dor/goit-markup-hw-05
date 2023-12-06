@@ -687,7 +687,7 @@ background: var(--CLOUD, #F4F4FD); */
   fill: #f4f4fd;
 }
 .review-form-own-checkbox {
-  fill: #fff;
+  fill: transparent;
 }
 .review-form-checkbox:focus
   + .review-form-checkbox-label
